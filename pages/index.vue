@@ -23,15 +23,20 @@
   align-items: center;
   text-align: center;
   z-index: 1;
+  padding: 0.5rem;
 }
 
 .page-index_title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 0 0 1rem;
 }
 
 .page-index_description {
   font-size: 1rem;
   margin: 0 0 1rem;
+}
+
+.page-index__links {
+  opacity: 0.5;
 }
 </style>
