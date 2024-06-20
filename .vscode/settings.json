@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": false,
+  "eslint.validate": ["vue", "javascript", "postcss", "css"],
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "search.exclude": {
+    "node_modules/*/**": true,
+    ".nuxt/*/**": true
+  },
+  "files.watcherExclude": {
+    "node_modules/*/**": true,
+    ".nuxt/*/**": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}
