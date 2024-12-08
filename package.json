@@ -1,16 +1,18 @@
 {
-  "name": "nuxt-app",
+  "name": "danto.dev",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
+    "build": "nuxt generate",
+    "serve": "nuxt dev",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "docker:build": "docker build -t dantodev/danto.dev:latest .",
+    "docker:tag": "docker tag dantodev/danto.dev:latest 100.91.198.18:5000/dantodev/danto.dev:latest",
+    "docker:push": "docker push 100.91.198.18:5000/dantodev/danto.dev:latest"
   },
   "dependencies": {
     "@nuxt/eslint": "^0.3.13",
